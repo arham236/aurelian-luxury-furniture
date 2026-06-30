@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g-avatar-2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efeded"/>
+      <stop offset="100%" stop-color="#dbdad9"/>
+    </linearGradient>
+    <filter id="grain-avatar-2">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.02 0"/>
+    </filter>
+  </defs>
+  <rect width="300" height="300" fill="url(#g-avatar-2)"/>
+  <rect width="300" height="300" filter="url(#grain-avatar-2)"/>
+  
+<g transform="translate(150.0,160.0) scale(0.7142857142857143)" opacity="0.9">
+  <ellipse cx="0" cy="-90" rx="60" ry="24" fill="#1b1c1c" opacity="0.25"/>
+  <rect x="-4" y="-70" width="8" height="120" fill="#1b1c1c" opacity="0.3"/>
+  <ellipse cx="0" cy="55" rx="50" ry="10" fill="#1b1c1c" opacity="0.2"/>
+</g>
+
+  
+</svg>
